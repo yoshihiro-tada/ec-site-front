@@ -1,21 +1,23 @@
-import { Button, ButtonGroup } from '@material-ui/core'
+import { Button } from '@material-ui/core'
 
 export default function Home() {
   return (
     <>
+    <h1>Top Page</h1>
       <div style={{ margin: '0.5em' }}>
-        <Button variant="contained">Default</Button>{' '}
-        <Button variant="contained" color="primary">Primary</Button>{' '}
-        <Button variant="contained" color="secondary">Secondary</Button>{' '}
-        <Button variant="contained" disabled>Disabled</Button>{' '}
-        <Button variant="contained" color="primary" href="https://google.com/">LINK</Button>
+        <Button variant="contained" color="primary">Customer Login</Button>{' '}
       </div>
       <div style={{ margin: '0.5em' }}>
-        <ButtonGroup variant="contained" color="primary" aria-label="contained primary button group">
-          <Button>One</Button>
-          <Button>Two</Button>
-          <Button>Three</Button>
-        </ButtonGroup>
+        <Button variant="contained" color="primary">Items List</Button>{' '}
+      </div>
+      <div style={{ margin: '0.5em' }}>
+        <Button variant="contained" color="primary">Categories List</Button>{' '}
+      </div>
+      <div style={{ margin: '0.5em' }}>
+        <Button variant="contained" color="primary">Editer Login</Button>{' '}
+      </div>
+      <div style={{ margin: '0.5em' }}>
+        <Button variant="contained" color="primary">Blog</Button>{' '}
       </div>
     </>
   )
