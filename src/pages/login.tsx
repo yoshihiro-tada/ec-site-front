@@ -4,18 +4,11 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-    <h1>Top Page</h1>
+    <h1>Login Page</h1>
     <div style={{ margin: '0.5em' }}>
       <Link href="/">
         <a>
           <Button variant="contained" color="primary">home</Button>{' '}
-        </a>
-      </Link>
-    </div>
-    <div style={{ margin: '0.5em' }}>
-      <Link href="/login">
-        <a>
-          <Button variant="contained" color="primary">Customer Login</Button>{' '}
         </a>
       </Link>
     </div>

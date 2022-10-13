@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-    <h1>Top Page</h1>
+    <h1>Blog</h1>
     <div style={{ margin: '0.5em' }}>
       <Link href="/">
         <a>
@@ -27,13 +27,6 @@ export default function Home() {
     </div>
     <div style={{ margin: '0.5em' }}>
       <Button variant="contained" color="primary">Editer Login</Button>{' '}
-    </div>
-    <div style={{ margin: '0.5em' }}>
-      <Link href="/blog">
-        <a>
-          <Button variant="contained" color="primary">Blog</Button>{' '}
-        </a>
-      </Link>
     </div>
     </>
   )
