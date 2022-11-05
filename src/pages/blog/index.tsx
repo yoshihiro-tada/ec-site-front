@@ -1,9 +1,17 @@
 import Link from "next/link";
+
+// Components
+import Header from './../components/Header';
+import Footer from './../components/Footer';
+
+// microCMS
 import { client } from "../../../libs/client";
 
 export default function Home({ blog }) {
   return (
-    <div>
+    <>
+    <Header />
+    <div style={{ marginTop: 64 }}>
       <ul>
         {blog.map((blog) => (
           <li key={blog.id}>
@@ -14,6 +22,8 @@ export default function Home({ blog }) {
         ))}
       </ul>
     </div>
+    <Footer />
+    </>
   );
 }
 

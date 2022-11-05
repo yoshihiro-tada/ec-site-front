@@ -11,9 +11,11 @@ const theme = {
 
 function Header() {
   return  <AppBar>
-            <Box sx={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#FFFAF0' }}>
-              <h1 sx={{ marginLeft: 1 }} >
-                <Image src="/images/h-logo.png" width={104} height={27} alt="shop logo" />
+            <Box style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#FFFAF0' }}>
+              <h1 style={{ marginTop: 8, marginBottom: 0, marginLeft: 8 }} >
+                <Link href="/">
+                  <Image src="/images/h-logo.png" width={104} height={27} alt="shop logo" />
+                </Link>
               </h1>
               <IconButton>
                 <MenuIcon />

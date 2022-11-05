@@ -8,12 +8,11 @@ export default function Home() {
   return (
     <>
     <Header />
-    <h1>Top Page</h1>
-    <div style={{ margin: '0.5em' }}>
-      <Link href="/">
-        <Button variant="contained" color="primary">home</Button>{' '}
-      </Link>
+    <div style={{ marginTop: 64, marginBottom: 16 }}>
+      <p>ここにSwiper(画像のスライダー)を導入</p>
     </div>
+    <h2 style={{ marginTop: 8 }}></h2>
+
     <div style={{ margin: '0.5em' }}>
       <Link href="/login">
         <Button variant="contained" color="primary">Customer Login</Button>{' '}
