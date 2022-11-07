@@ -25,11 +25,13 @@ export default function Home() {
       <Button variant="contained" color="primary">Categories</Button>{' '}
     </div>
     <div style={{ margin: '0.5em' }}>
-      <Button variant="contained" color="primary">Editer Login</Button>{' '}
-    </div>
-    <div style={{ margin: '0.5em' }}>
       <Link href="/blog">
         <Button variant="contained" color="primary">Blog</Button>{' '}
+      </Link>
+    </div>
+    <div style={{ margin: '0.5em' }}>
+      <Link href="/admin">
+        <Button variant="contained" color="primary">Admin</Button>{' '}
       </Link>
     </div>
     <Footer />
