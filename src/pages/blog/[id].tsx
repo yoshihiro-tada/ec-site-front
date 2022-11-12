@@ -15,7 +15,7 @@ export default function BlogId({ blog }) {
   return (
     <>
     <Header />
-    <main style={{ marginTop: 64, maxWidth: 750, padding: '0.75rem'}}>
+    <main style={{ marginTop: 40, maxWidth: 750, padding: '0.75rem'}}>
       <h1>{blog.title}</h1>
       <p>ここにサムネ画像</p>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
